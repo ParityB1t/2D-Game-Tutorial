@@ -47,7 +47,9 @@
   <ItemGroup>
      <Compile Include="Assets\AdviceFiring.cs" />
      <Compile Include="Assets\BulletMovement.cs" />
+     <Compile Include="Assets\EnemyMovement.cs" />
      <Compile Include="Assets\PlayerMovement.cs" />
+     <Compile Include="Assets\SpawnEnemies.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>G:/Development/Unity/Unity-5.3.1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

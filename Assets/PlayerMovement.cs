@@ -36,4 +36,9 @@ public class PlayerMovement : MonoBehaviour {
     {
         trans.localScale = Vector3.Scale(trans.localScale, new Vector3(-1f, 1));
     }
+
+    public bool isFacingRight()
+    {
+        return facingRight;
+    }
 }
