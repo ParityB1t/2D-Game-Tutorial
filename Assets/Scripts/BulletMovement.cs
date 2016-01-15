@@ -45,6 +45,8 @@ public class BulletMovement : MonoBehaviour {
         {
             Destroy(col.gameObject);
             Destroy(gameObject);
+            CountPoint counter = GameObject.FindGameObjectWithTag("GameManager").GetComponent<CountPoint>();
+            counter.points++;
         }
         
     }

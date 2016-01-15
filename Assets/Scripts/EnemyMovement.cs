@@ -29,6 +29,6 @@ public class EnemyMovement : MonoBehaviour
     void OnCollisionEnter2D(Collision2D col)
     {
         if (col.gameObject.name == "Player")
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene(3);
     }
 }

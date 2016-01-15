@@ -47,8 +47,10 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\AdviceFiring.cs" />
      <Compile Include="Assets\Scripts\BulletMovement.cs" />
+     <Compile Include="Assets\Scripts\CountPoint.cs" />
      <Compile Include="Assets\Scripts\EnemyMovement.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\PointDisplay.cs" />
      <Compile Include="Assets\Scripts\SpawnEnemies.cs" />
      <Compile Include="Assets\Scripts\Startgame.cs" />
  <Reference Include="UnityEngine.UI">

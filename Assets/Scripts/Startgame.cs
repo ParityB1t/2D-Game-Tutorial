@@ -6,6 +6,7 @@ public class Startgame : MonoBehaviour {
 
     public void startGame()
     {
-        SceneManager.LoadScene(1);
+        GameObject.FindGameObjectWithTag("GameManager").GetComponent<CountPoint>().points = 0;
+        SceneManager.LoadScene(2);
     }
 }
